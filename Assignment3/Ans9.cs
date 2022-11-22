@@ -87,10 +87,11 @@ namespace Assignment3
     {
         static void Main(string[] args)
         {
-                consumer c = new consumer(1, "Anurag");
-                c.Consumer_Display();
+                
+                
             Bill b = new Bill(1, "Anurag");
-            Console.ReadKey();
+                b.Consumer_Display();
+                Console.ReadKey();
         }
     }
         }
