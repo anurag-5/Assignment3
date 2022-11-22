@@ -20,12 +20,8 @@ namespace Assignment3
             Console.WriteLine("student2 details :");
             s2.display();
             s1.swap(s1, s2);
-            Console.WriteLine("After Swapping :");
-            Console.WriteLine("student1 details :");
-            s1.display();
-            Console.WriteLine("student2 details :");
-            s2.display();
-            Console.ReadLine();
+            
+            
         }
 
     }
@@ -50,6 +46,13 @@ namespace Assignment3
             temp = S1;
             S1 = S2;
             S2 = temp;
+            Console.WriteLine("After Swapping :");
+            Console.WriteLine("student1 details :");
+            S1.display();
+            Console.WriteLine("student2 details :");
+            S2.display();
+            Console.ReadLine();
+
         }
         public void display()
         {
