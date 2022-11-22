@@ -24,13 +24,16 @@ namespace Assignment3
         
         int rollno;
         string name;
-        public void displaydetails()
+        public Student()
         {
             Console.WriteLine("Enter Name");
             name = Convert.ToString(Console.ReadLine());
             Console.WriteLine("Enter roll number");
             rollno = Convert.ToInt32(Console.ReadLine());
 
+        }
+        public void displaydetails()
+        {
             Console.WriteLine("Name :"+name);
             Console.WriteLine("rollno :"+rollno);
         }
