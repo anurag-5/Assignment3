@@ -62,7 +62,7 @@ namespace Assignment3
         private double unit_Consumed;
 
 
-            public Bill(int id, string name, int p, int c) : base(id, name)
+            public Bill(int id, string name) : base(id, name)
         {
             Consumption con = new Consumption();
             con.Consumption_Read();
@@ -89,7 +89,7 @@ namespace Assignment3
         {
                 consumer c = new consumer(1, "Anurag");
                 c.Consumer_Display();
-            Bill b = new Bill(1, "Anurag", 450, 2000);
+            Bill b = new Bill(1, "Anurag");
             Console.ReadKey();
         }
     }
