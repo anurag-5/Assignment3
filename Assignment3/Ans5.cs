@@ -10,10 +10,9 @@ namespace Assignment3
     {
         static void Main(string[] args)
         {
-            Book b = new Book();
-            b.input();
-            b.purchase();
-            b.display();
+            Book book = new Book();
+            book.input();
+            book.purchase();
             Console.ReadLine();
         }
     }
@@ -33,8 +32,6 @@ namespace Assignment3
             PRICE = int.Parse(Console.ReadLine());
         }
 
-
-
         public void purchase()
         {
             Console.Write("Enter the number of copies to be purchased: ");
@@ -44,13 +41,6 @@ namespace Assignment3
         public float TOTALCOST(int n)
         {
             return PRICE * n;
-        }
-
-        public void display()
-        {
-            Console.WriteLine("Book No: {0}", BOOKNO);
-            Console.WriteLine("Book Title: {0}", BOOKTITLE);
-            Console.WriteLine("Price: {0}", PRICE);
         }
     }
 }
