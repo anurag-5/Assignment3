@@ -11,13 +11,14 @@ namespace Assignment3
         static void Main(string[] args)
         {
             Ans3 ans3 = new Ans3();
-            ans3.fun();
+            Console.WriteLine("Enter a string");
+            string str = Convert.ToString(Console.ReadLine());
+            ans3.fun(str);
         }
-        public void fun()
+        public void fun(string str)
         {
             int Count=0;
-            Console.WriteLine("Enter a string");
-            string str=Convert.ToString(Console.ReadLine());
+            
             for(int i=0;i<str.Length;i++)
             {
 

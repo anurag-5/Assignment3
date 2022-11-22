@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Assignment3.Ans5</StartupObject>
+    <StartupObject>Assignment3.Ans9.ProgramMI</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,6 +52,9 @@
     <Compile Include="Ans4.cs" />
     <Compile Include="Ans5.cs" />
     <Compile Include="Ans6.cs" />
+    <Compile Include="Ans7.cs" />
+    <Compile Include="Ans8.cs" />
+    <Compile Include="Ans9.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

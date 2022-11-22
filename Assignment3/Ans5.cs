@@ -11,8 +11,8 @@ namespace Assignment3
         static void Main(string[] args)
         {
             Book book = new Book();
-            book.input();
-            book.purchase();
+            book.INPUT();
+            book.PURCHASE();
             Console.ReadLine();
         }
     }
@@ -22,7 +22,7 @@ namespace Assignment3
         public string BOOKTITLE;
         public float PRICE;
 
-        public void input()
+        public void INPUT()
         {
             Console.Write("Enter Book No: ");
             BOOKNO = int.Parse(Console.ReadLine());
@@ -32,7 +32,7 @@ namespace Assignment3
             PRICE = int.Parse(Console.ReadLine());
         }
 
-        public void purchase()
+        public void PURCHASE()
         {
             Console.Write("Enter the number of copies to be purchased: ");
             int n = int.Parse(Console.ReadLine());
